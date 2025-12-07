@@ -1,8 +1,6 @@
 import { ChromaClient } from "chromadb";
 
-export const chroma = new ChromaClient(
-  url: "http://localhost:8000",
-);
+export const chroma = new ChromaClient("http://localhost:8000");
 
 export async function getCollection() {
   return chroma.getOrCreateCollection({

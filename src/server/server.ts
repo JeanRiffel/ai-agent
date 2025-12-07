@@ -1,5 +1,5 @@
 import express from "express";
-import { runAgent } from "../agent/core/agent";
+import { runAgent } from "../agent/agent";
 
 const app = express();
 app.use(express.json());
