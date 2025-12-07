@@ -1,6 +1,6 @@
-export type ToolDefinition = {
+export type ToolSchema = {
   name: string;
   description: string;
-  parameters: any;
+  parameters: Record<string, any>;
   execute: (args: any) => Promise<any>;
 };

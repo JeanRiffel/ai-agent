@@ -1,4 +1,4 @@
-import type { ToolDefinition } from "../../types/tool-definition";
+import type { ToolDefinition } from "../config/tool-definitions";
 
 export const  cryptoPrice: ToolDefinition = {
   name: "cryptoPrice",
